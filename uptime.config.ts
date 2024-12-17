@@ -16,6 +16,7 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     // Example HTTP Monitor
+    
     // Example TCP Monitor
     {
       id: 'blog.280222.xyz',
@@ -24,7 +25,6 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://blog.280222.xyz',
-      tooltip: 'My production server monitor',
       statusPageLink: 'https://blog.280222.xyz',
       timeout: 10000,
     },
